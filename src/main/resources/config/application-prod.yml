@@ -33,9 +33,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/TruyenServer
-    username: TruyenServer
-    password:
+    url: postgres://dhizjsxjsnlcnp:822fae7cfa4d19a079bf8dc119b1c3572ba9c69cec9095d10786562bd7164fe1@ec2-54-164-22-242.compute-1.amazonaws.com:5432/dp47hp2sip6oa
+    username: dhizjsxjsnlcnp
+    password: 822fae7cfa4d19a079bf8dc119b1c3572ba9c69cec9095d10786562bd7164fe1
     hikari:
       poolName: Hikari
       auto-commit: false
